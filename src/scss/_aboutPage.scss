@@ -1,0 +1,41 @@
+.ftco-section {
+    padding: 5em 0;
+    position: relative;
+    background-color: $primary;
+}
+.wrap-about .time span a {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+} 
+// .heading-section .subheading {
+//     top: -30px;
+//     left: 0;
+//     right: 0;
+//     font-weight: normal;
+//     display: block;
+//     margin-bottom: 0;
+//     line-height: 1;
+//     margin-top: 0;
+//     z-index: -1;
+// }
+.wrap-about .time span a {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ftco-wrap-about {
+    background-position: bottom center !important; }
+    .ftco-wrap-about .heading-section h2 {
+      font-weight: 600 !important; }
+   
+    @media (min-width: 992px) {
+      .ftco-wrap-about .img-1 {
+        margin-top: -30px; } }
+    @media (min-width: 992px) {
+      .ftco-wrap-about .img-2 {
+        margin-bottom: -30px; } }
+  
+  @media (max-width: 767.98px) {
+    .img-2 {
+      height: 700px; } }
+  

@@ -1,0 +1,47 @@
+
+
+
+.contact_part {
+    background-image: url(../Images/contact_bg.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.section_padding {
+    padding: 120px 0px;
+}
+.contact_part .contact_part_iner {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+}
+
+.contact_part .contact_part_iner h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color:  #ff7e1b;
+}
+.contact_part .contact_part_iner .single_contact_part {
+    margin-top: 30px;
+}
+.contact_part .contact_part_iner .single_contact_part h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: orange;
+}
+
+
+@media (max-width: 991px) {
+    .contact_part .contact_part_iner {
+        padding: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .section_padding {
+        padding: 70px 0px;
+    }
+}

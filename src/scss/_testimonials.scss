@@ -1,0 +1,119 @@
+/* Testimonials styles start here */
+.testimonial {
+    padding: 5rem 0 8rem;
+  
+    .testimonial-wrapper {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+      margin: auto;
+      padding: 1rem 5rem;
+      border: 1px solid gainsboro;
+      min-height: 400px;
+      border-radius: 8px;
+  
+      @media (max-width: 768px) {
+        padding: 1rem 2rem;
+        min-height: auto;
+      }
+    }
+  
+    .testimonial-wrapper img {
+      border-radius: 50%;
+      width: 5rem;
+      height: 5rem;
+      margin: 1.25rem auto;
+      object-fit: cover;
+      background-color: white;
+      border: 1px solid gainsboro;
+  
+      @media (max-width: 768px) {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  
+    .username {
+      text-align: center;
+  
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1rem;
+      }
+  
+      span {
+        color: gray;
+        font-size: 0.875rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 0.5rem 0;
+      }
+  
+      p {
+        color: #555;
+        font-size: 0.875rem;
+        font-weight: 300;
+        margin-top: 1rem;
+        line-height: 1.6;
+      }
+    }
+  }
+  
+  /* Carousel buttons */
+ .testimonial .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 25px;
+  }
+
+  .testimonial .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50% !important;
+    margin: 0 10px;
+    border: 2px solid red !important; 
+    @media (max-width: 768px) {
+      width: 8px;
+      height: 8px;
+      margin: 0px 5px;
+    }
+
+    &:active,
+    &.active {
+      background-color: #fb6e02;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.rating {
+    font-size: 16px;
+    color: #ffb400;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+  @media (max-width: 768px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      font-size: 20px;
+    }
+  }
+  

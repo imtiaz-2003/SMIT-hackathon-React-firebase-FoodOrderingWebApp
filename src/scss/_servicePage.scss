@@ -1,0 +1,138 @@
+.ftco-section {
+    padding: 5em 0;
+    position: relative;
+    background-color: $primary;
+  }
+  
+  .heading-section h2 {
+    font-size: 36px;
+    color: #ff6b22;
+  }
+  
+  .subheading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6b22;
+  }
+  .team{
+    text-align: center;
+    margin: 20px;
+}
+.team h2{
+    padding: 5px;
+    font-style: italic;
+  color: wheat;
+  background-color: #332b21;
+  display: inline-block;
+  font-size: 25px;
+
+}
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .icon {
+    width: 80px; /* Adjust the size as needed */
+    height: 80px;
+    background: linear-gradient(to right, #ff6b22, #ff872c);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  
+    .i {
+      font-size: 36px; /* Adjust the icon size as needed */
+    }
+  
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .media {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    line-height: 1.5;
+  
+    &:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      background-color: #ffbc88;
+    }
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .heading-section h2 {
+      font-size: 30px;
+    }
+  
+    .subheading {
+      font-size: 18px;
+    }
+  
+    .media {
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heading-section h2 {
+      font-size: 26px;
+    }
+  
+    .subheading {
+      font-size: 16px;
+    }
+  
+    .media {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  

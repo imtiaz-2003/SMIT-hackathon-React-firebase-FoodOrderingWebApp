@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "./scss/bootstrap";
+@import "./scss/header";
+@import './scss/createContainer';
+@import './scss/showFoodsStore';
+@import "./scss/labraries.scss";
+@import "./scss/servicePage";
+@import "./scss/aboutPage";
+@import "./scss/team";
+@import "./scss/testimonials";
+@import "./scss/contactUs";
+@import "./scss/reserveTable";
+@import "./scss/adminDashboard";
+@import "./scss/footer";
+@import "./scss/showUsers";
+@import "./scss/showOrders";
+@import "./scss/showReservations";
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+body #logo{
+  font-family: "Lobster", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 25px !important;
+}
+html ,body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.team{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.team h2{
+  padding: 5px;
+  font-style: italic;
+color: wheat;
+background-color: #332b21;
+display: inline-block;
+font-size: 25px;
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* spinner  */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    display: grid;
+    animation: l14 4s infinite;
+  }
+  .loader::before,
+  .loader::after {    
+    content: "";
+    grid-area: 1/1;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: red red #0000 #0000;
+    mix-blend-mode: darken;
+    animation: l14 1s infinite linear;
+  }
+  .loader::after {
+    border-color: #0000 #0000 blue blue;
+    animation-direction: reverse;
+  }
+  @keyframes l14{ 
+    100%{transform: rotate(1turn)}
+  }

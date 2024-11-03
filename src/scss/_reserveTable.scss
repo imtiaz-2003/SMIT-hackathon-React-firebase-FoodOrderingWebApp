@@ -1,0 +1,150 @@
+.reservation-section {
+    background: url('../Images/background03.jpg') no-repeat center center/cover;
+width: 100%;
+padding: 50px 0;
+height: 600px !important;
+    .container{
+        margin-top: 50px !important;
+    }
+  
+
+    .reservation-form, .opening-time {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+      h3 {
+        color: #ff7e1b;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+      }
+  
+      .form-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        color: #fff;
+      }
+  
+      .form-label {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+  
+      .form-control, .form-select {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        border: 1px solid #ff7e1b;
+        border-radius: 25px;
+        margin-bottom: 15px;
+        &::placeholder {
+            color: #fff; // Change placeholder color to white
+            opacity: 1;  // Ensure the color is fully applied
+          }
+  
+        &:focus {
+          border-color: #ff7e1b;
+          box-shadow: 0 0 5px rgba(255, 126, 27, 0.8);
+        }
+        &::-webkit-calendar-picker-indicator {
+            filter: invert(100%); // Changes the icon color to white
+          }
+      }
+  
+      .btn-primary {
+        background-color: #ff7e1b;
+        border-color: #ff7e1b;
+        width: 100%;
+        padding: 10px;
+        border-radius: 30px;
+        transition: background-color 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: #ffbe93;
+        }
+      }
+
+/* Add this to your CSS/SCSS file */
+.form-select {
+  background-color: black;
+  color: white;
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+}
+
+.form-select option {
+  background-color: black;
+  color: white;
+}
+
+.form-select:hover {
+  background-color: #333; /* Darker shade of black on hover */
+}
+
+
+
+    }
+  
+    .opening-time {
+                height: fit-content;
+                background-color: rgba(0, 0, 0, 0.956) !important;
+
+      h3 {
+        font-size: 36px;
+      }
+  
+      ul {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+  
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+  
+        span {
+          color: #ff7e1b;
+        }
+      }
+    }
+  
+
+    @media (max-width: 992px) {
+      height: fit-content !important;
+      padding: 10px 30px !important;
+      .reservation-form, .opening-time {
+        margin-bottom: 20px;
+      }
+    }
+  
+    @media (max-width: 576px) {
+        height: fit-content !important; 
+        padding: 10px  30px !important;
+     
+      .reservation-form, .opening-time {
+        padding: 10px ;
+       
+        h3 {
+          font-size: 28px;
+        }
+      }
+  
+      .reservation-section .form-title {
+        font-size: 20px !important;
+        padding-bottom: 5px;
+    }
+  
+      ul {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  // xstra small 
+    
+  @media (max-width: 450px) {
+    .reservation-section .opening-time ul span {
+      margin-left: 25px !important;
+  }
+
+  }

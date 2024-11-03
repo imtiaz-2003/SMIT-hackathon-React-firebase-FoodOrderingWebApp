@@ -1,0 +1,45 @@
+/* Centering the main container and giving it some padding and border styling */
+.orders-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the main title */
+  .orders-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the message with custom color and size */
+  .orders-message {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Highlighting the notice message */
+  .orders-notice {
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Checkout button styling */
+  .checkout-button {
+    margin-top: 20px;
+    background-color: #1890ff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+  
